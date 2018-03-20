@@ -20,12 +20,12 @@ public class PerfilServiceImpl implements PerfilService {
 
 	private static final String ERROR001 = "El nombre del perfil es nulo";
 	private static final String ERROR002 = "El maximo de caracteres en el nombre permitidos son 15";
-	private static final String ERROR003 = "El nombre solo puede contener letras y una mayuscula al principio";
+	private static final String ERROR003 = "El nombre solo puede contener letras ";
 	private static final String ERROR004 = "El Apellido paterno es nulo";
 	private static final String ERROR005 = "El maximo de caracteres en el Apellido paterno permitidos son 15";
-	private static final String ERROR006 = "El Apellido paterno solo puede contener letras y una mayuscula al principio";
+	private static final String ERROR006 = "El Apellido paterno solo puede contener letras";
 	private static final String ERROR007 = "El maximo de caracteres en el Apellido materno permitidos son 15";
-	private static final String ERROR008 = "El Apellido materno solo puede contener letras y una mayuscula al principio";
+	private static final String ERROR008 = "El Apellido materno solo puede contener letras";
 	private static final String ERROR009 = "La edad debe ser mayor a 12";
 	private static final String ERROR010 = "La edad contiene mas de tres digitos";
 	
